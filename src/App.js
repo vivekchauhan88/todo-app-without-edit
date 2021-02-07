@@ -8,13 +8,12 @@ function App() {
     <div className="App">
       <h1>To-do App</h1>
       <hr />
-      <br /><br />
+      <br />
           <Form>
             <Row>
               <Col>
-                <Form.Label></Form.Label>
               </Col>
-              <Col>
+              <Col xs={6}>
                 <Form.Control placeholder="Add a task"/>
               </Col>
               <Col>
@@ -22,8 +21,40 @@ function App() {
               </Col>
             </Row>
           </Form>
-        <br /><br />
+        <br />
         <hr />
+        
+        <p><Row><Col>
+        Buy apples</Col><Col>
+        <Button variant="info">Edit</Button>{' '}
+        <Button variant="danger">Delete</Button>
+        </Col></Row></p>
+        <hr />
+        <p><Row><Col>
+        Feed cat</Col><Col>
+        <Button variant="info">Edit</Button>{' '}
+        <Button variant="danger">Delete</Button>
+        </Col></Row></p>
+        <hr />
+        <p><Row><Col>
+        Walk dog</Col><Col>
+        <Button variant="info">Edit</Button>{' '}
+        <Button variant="danger">Delete</Button>
+        </Col></Row></p>
+        <hr />
+        <p><Row><Col>
+        Drink water</Col><Col>
+        <Button variant="info">Edit</Button>{' '}
+        <Button variant="danger">Delete</Button>
+        </Col></Row></p>
+        <hr />
+        <p><Row><Col>
+        Eat bananas</Col><Col>
+        <Button variant="info">Edit</Button>{' '}
+        <Button variant="danger">Delete</Button>
+        </Col></Row></p>
+        <hr />
+        
     </div>
   );
 }
