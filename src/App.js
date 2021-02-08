@@ -16,7 +16,7 @@ function App() {
               <Col xs={6}>
                 <Form.Control placeholder="Add a task"/>
               </Col>
-              <Col className="but">
+              <Col>
                 <Button variant="primary">Create</Button>
               </Col>
             </Row>
