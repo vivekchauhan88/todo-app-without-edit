@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-
+p{
+  text-align: left;
+}
+.but{
+  align: left;
+}
 .App-link {
   color: #61dafb;
 }

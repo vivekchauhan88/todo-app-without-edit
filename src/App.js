@@ -16,7 +16,7 @@ function App() {
               <Col xs={6}>
                 <Form.Control placeholder="Add a task"/>
               </Col>
-              <Col>
+              <Col className="but">
                 <Button variant="primary">Create</Button>
               </Col>
             </Row>
@@ -24,31 +24,31 @@ function App() {
         <br />
         <hr />
         
-        <p><Row><Col>
+        <p><Row><Col></Col><Col xs={6}>
         Buy apples</Col><Col>
         <Button variant="info">Edit</Button>{' '}
         <Button variant="danger">Delete</Button>
         </Col></Row></p>
         <hr />
-        <p><Row><Col>
+        <p><Row><Col></Col><Col xs={6}>
         Feed cat</Col><Col>
         <Button variant="info">Edit</Button>{' '}
         <Button variant="danger">Delete</Button>
         </Col></Row></p>
         <hr />
-        <p><Row><Col>
+        <p><Row><Col></Col><Col xs={6}>
         Walk dog</Col><Col>
         <Button variant="info">Edit</Button>{' '}
         <Button variant="danger">Delete</Button>
         </Col></Row></p>
         <hr />
-        <p><Row><Col>
+        <p><Row><Col></Col><Col xs={6}>
         Drink water</Col><Col>
         <Button variant="info">Edit</Button>{' '}
         <Button variant="danger">Delete</Button>
         </Col></Row></p>
         <hr />
-        <p><Row><Col>
+        <p><Row><Col></Col><Col xs={6}>
         Eat bananas</Col><Col>
         <Button variant="info">Edit</Button>{' '}
         <Button variant="danger">Delete</Button>
