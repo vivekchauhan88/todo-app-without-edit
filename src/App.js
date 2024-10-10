@@ -19,7 +19,7 @@ function App() {
   };
 
   const remove = (i) => {
-    setTasks(tasks.slice(0, i).concat(tasks.slice(i + 1, tasks.length)));
+    setTasks(tasks.slice(0, i).concat(tasks.slice(i + 1)));
     console.log('deleted');
   };
 
